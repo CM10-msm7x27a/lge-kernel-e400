@@ -973,7 +973,7 @@ static int try_to_force_load(struct module *mod, const char *reason)
 	add_taint_module(mod, TAINT_FORCED_MODULE);
 	return 0;
 #else
-	return -ENOEXEC;
+//	return -ENOEXEC;
 #endif
 }
 
